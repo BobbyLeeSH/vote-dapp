@@ -1,0 +1,29 @@
+{
+  "name": "vote-dapp",
+  "version": "1.0.0",
+  "description": "smart contract vote app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ganache": "ganache --wallet.seed myCustomSeed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobbyLeeSH/vote-dapp.git"
+  },
+  "keywords": [
+    "snart",
+    "contract"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobbyLeeSH/vote-dapp/issues"
+  },
+  "homepage": "https://github.com/BobbyLeeSH/vote-dapp#readme",
+  "dependencies": {
+    "ganache": "^7.1.0",
+    "solc": "^0.8.13",
+    "web3": "^1.7.3"
+  }
+}
